@@ -7,6 +7,8 @@ repos=(
 "git@github.com:Unicorn-OS/ansible-role-Gnome-Ergonomic-tweaks.git"
 )
 
+# Learn: https://www.rexegg.com
+
 for repo in "${repos[@]}"; do
   echo $repo | grep -o -E "/(.*)"
   #git clone $item
